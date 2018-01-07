@@ -1,0 +1,68 @@
+body{
+    background-color:rgba(252, 249, 237, 0.986);
+    font-size:16px; 
+    font-family:Tahoma; 
+    margin:0;
+}
+h2, h3{
+    margin-top:125px;
+}
+h4{
+    font-weight:bold; 
+}
+h1{
+    font-size:50px;
+    font-weight:bold;    
+}
+.centered {
+    color:rgb(252, 249, 248);
+    font-size:55px;  
+    font-weight:bold;   
+    position: absolute;
+    top: 50%; 
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+}
+.background-work{
+    background-image:url(Bilder/beige.jpg);
+}
+.glyphicon{
+    font-size:30px;
+    margin-top: 40px;
+    margin-bottom:10px;      
+}
+.glyphicon-envelope{
+    font-size:30px;
+    margin-top:10px; 
+}
+.card-body{
+    border:3px solid rgb(7, 7, 7);
+    box-shadow:10px 10px 10px gray;
+    border-radius: 5%; 
+    margin-bottom:40px; 
+    padding:4px;
+    background-color:rgb(255, 255, 255);  
+}
+.section1{
+    background-color:rgb(252, 220, 152); 
+    box-shadow:10px 10px 10px rgb(189, 143, 17); 
+    border:2px solid rgb(100, 56, 2);  
+    padding:10px;
+    margin:100px 0 50px 0;    
+}
+.footer{
+    background-color:rgb(22, 22, 22);
+    margin-top:25px;  
+    color:rgb(245, 245, 245);
+    padding-top:20px;
+    width:100%; 
+    height:50px;       
+}
+.form-control{
+    margin-top: 50px;
+}
+.img-thumbnail{
+    margin-bottom:60px;
+    border-radius:50px;  
+}
+
