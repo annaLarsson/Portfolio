@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- Dessa tre måste komma först! -->
+    <title>Annas portofolio</title>    
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="style.css" rel="stylesheet">         
+  </head>
+
+  <body> 
+   <!--Detta är min fixerade navbar i bootstrap -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Annas Portofolio</a><!--länkar tillbaka till min navbar-->
+        </div>
+        <ul class="nav navbar-nav">
+          <!--Har länkat sidorna i sidan med ett id-->
+          <li><a href="#Om">About</a></li>
+          <li><a href="#Jobb">My Work</a></li>
+          <li><a href="#Kontakt">Contact</a></li>
+        </ul>
+    </div></div>
+
+      <div class="header">
+        <img src="Bilder/landet2.jpg" class="img-fluid" alt="" width="1500" height="600">
+        <div class="centered"  onmouseover="mOver(this)" onmouseout="mOut(this)">
+        <h1>Front End student</h1></div>
+    </div> 
+     
+    <div class="container"> 
+        <a id ="Om"></a>
+      <div class="row text-center">
+      <div class='col-sm-6 col-md-6' > 
+        <article>
+        <h2>About</h2>                
+        <p>Hi my name is Anna Larsson and I live in Stockholm. After 20 years work in the care/hospital world, I discovered programming when I studied a distance course in C #.
+           So in August 2017 I started my Front End education at KYH.<br></p>
+        <p>Code and problem solving are a major part of the education and can sometimes make you go crazy,
+           but the feeling when it works is amazing! And it's so cool what you can create with code and that's probably why I like it so much. 
+           This is the beginning of my portofolio in HTML CSS Bootstrap and a little JavaScript.
+           And the more we learn, the more there is to learning, so you can never give up.<br> Break up and start over again!</p>
+        </article> 
+    </div>     
+      <div class='col-sm-6 col-md-6'>
+      <div class='row text-center'>        
+        <h3>With a positive attitude and a bit of<br>stubbornness you can come a long way!</h3>
+       <img src="Bilder/anna2.jpg" class="img-thumbnail" alt="anna1" width="304" height="236">        
+      </div></div>
+    </div></div>     
+   
+    <div class= "background-work"> 
+   <div class="container-fluid">     
+          <a id = "Jobb"></a>
+
+         <div class='col-sm-2 col-md-2'></div> <!--ger ett mellanrum-->
+
+          <div class='col-sm-2 col-md-2'>
+           <div class="row text-center">                         
+             <i class="glyphicon glyphicon-book"></i><!--märket för en bok-->        
+           <div class="card">
+          <div class="card-body">
+           <h4>JavaScript</h4>
+           <img class="card-img-top"  src="Bilder/bild2.jpg" alt="bild2">                 
+         </div></div>
+        </div></div>
+
+       <div class='col-sm-1 col-md-1'></div><!-- ger ett mellanrum-->
+        
+      <div class='col-sm-2 col-md-2'>
+           <div class="row text-center">
+              <i class="glyphicon glyphicon-book"></i>
+            <div class="card">
+              <div class="card-body">
+                <h4>CSS</h4>
+                 <img class="card-img-top"  src="Bilder/bild2.jpg" alt="bild2">                      
+              </div></div>
+           </div></div>
+
+      <div class='col-sm-1 col-md-1'></div><!--mellanrum-->
+        
+          <div class='col-sm-2 col-md-2'>
+              <div class="row text-center">
+                  <i class="glyphicon glyphicon-book"></i>
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>HTML</h4>                      
+                      <img class="card-img-top"  src="Bilder/bild2.jpg" alt="bild2"> 
+                      <div class='col-sm-2 col-md-2'></div>                                          
+             </div></div>
+          </div></div>                 
+          
+          <div class="container-fluid">
+             <div class=' col-md-2'></div>
+                 <div class='col-sm-6 col-md-2'>
+                     <div class="row text-center">                         
+                           <i class="glyphicon glyphicon-briefcase"></i><!--märket för en bok-->        
+                       <div class="card">
+                       <div class="card-body">
+                         <h4>Interactive mockup of an LMS</h4>
+                         <h6>Group work: We worked with agile methods with Scrum and version management in GIT.</h6> 
+                         <img class="card-img-top"  src="Bilder/skärmklipp.jpg" alt="bild2">                                  
+                   </div></div>
+                 </div></div>
+          <div class='col-sm-6 col-md-8'></div>
+        </div></div></div>  
+          
+         <div class="container">
+          <div class="kontakt" >       
+            <div class='col-sm-6 col-md-4'>
+              <div class="row">
+                <div class="section1">                    
+                <h4>Contact</h4>
+                <i class="glyphicon  glyphicon-envelope"></i> 
+                <h4>Send <a href="mailto:anna.larsson@student.kyh.se" class="larrson">e-mail</a> to Anna</h4>
+                
+                <form action="mailto:anna.larsson@student.kyh.se" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="25"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>                 
+            </div>
+          </div></div></div>           
+          <div class="kontakt1">
+           <div class='col-sm-6 col-md-8'>
+            <div class="row text-center">            
+             </div>                     
+          </div></div></div>
+
+        <div class="footer">
+           <div class="container-fluid">
+           <div class="row text-center">                  
+          <div class='col-sm-12 col-md-12'><span>Copyright Anna Larsson</span>
+           <a id="Kontakt"></a>     
+        </div></div></div></div>        
+        
+  
+   
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="inviduella.js"></script>
+      
+      </body>
+    </html> 
