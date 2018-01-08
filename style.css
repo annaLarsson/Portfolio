@@ -24,7 +24,7 @@ h1{
     transform: translate(-50%, -50%); 
 }
 .background-work{
-    background-image:url(Bilder/beige.jpg);
+    background-image:url(beige.jpg);
 }
 .glyphicon{
     font-size:30px;
