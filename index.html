@@ -12,42 +12,44 @@
 
   <body> 
    <!--Detta är min fixerade navbar i bootstrap -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Annas Portofolio</a><!--länkar tillbaka till min navbar-->
+          <a class="navbar-brand" href="#">Annas Portfolio</a><!--länkar tillbaka till min navbar-->
         </div>
         <ul class="nav navbar-nav">
           <!--Har länkat sidorna i sidan med ett id-->
-          <li><a href="#Om">About</a></li>
-          <li><a href="#Jobb">My Work</a></li>
-          <li><a href="#Kontakt">Contact</a></li>
+          <li><a href="#Om">Om</a></li>
+          <li><a href="#Jobb">Jobb</a></li>
+          <li><a href="#Kontakt">Kontakt</a></li>
         </ul>
     </div></nav>
 
-      <header class="header">
-        <img src="landet2.jpg" class="img-fluid" alt="" width="1500" height="600">
+      <div class="header">      
         <div class="centered"  onmouseover="mOver(this)" onmouseout="mOut(this)">
-        <h1>Front End student</h1></div>
-      </header> 
+        <h1>Front End student</h1></div></div>
+      
      
     <main class="container"> 
         <a id ="Om"></a>
       <div class="row text-center">
       <div class='col-sm-6 col-md-6' > 
         <article>
-        <h2>About</h2>                
-        <p>Hi my name is Anna Larsson and I live in Stockholm. After 20 years work in the care/hospital world, I discovered programming when I studied a distance course in C #.
-           So in August 2017 I started my Front End education at KYH.<br></p>
-        <p>Code and problem solving are a major part of the education and can sometimes make you go crazy,
-           but the feeling when it works is amazing! And it's so cool what you can create with code and that's probably why I like it so much. 
-           This is the beginning of my portofolio in HTML CSS Bootstrap and a little JavaScript.
-           And the more we learn, the more there is to learning, so you can never give up.<br> Break up and start over again!</p>
+          <h2>Om Anna</h2>                
+          <p> Jag heter Anna Larsdotter Larsson och läser andra året på yrkeshögskolan till Front End utvecklare på KYH i Nacka.</p>
+             <p>Fick frågan ganska nyligen, vad jag gillar mest med utbildningen?<br>
+             Jag har alltid gillat att göra något kreativt och att dessutom få jobba med problemlösning är grymt kul!!
+             Ibland fastnar man och det är svårt, men känslan när det lossnar är OBESKRIVLIG!</p>
+             <p>Och så älskar jag att det finns så mycket, att du ständigt kan lära dig mer och utvecklas. När man lär sig något inser man hur
+             mycket mer det finns och vad man kan, som en droppe i Atlanten.<br>
+             Just nu läser jag en kurs i UX-design sen ska vi ut på LIA praktik och jag letar nu efter en plats där jag kan fördjupa mina kunskaper
+             utvecklas och bidra med något. Jag tycker det mesta är spännande såsom React, Wordpress och Webbutveckling</p> 
+             Har du tips och råd, eller veta mer så hör av dig!<br>MVH Anna</p>
         </article> 
     </div>     
       <div class='col-sm-6 col-md-6'>
       <div class='row text-center'>        
-        <h3>With a positive attitude and a bit of<br>stubbornness you can come a long way!</h3>
+        <h3>Med en positiv attityd<br>och envishet kan du komma långt!</h3>
        <img src="anna2.jpg" class="img-thumbnail" alt="anna1" width="304" height="236">        
       </div></div>
     </div></main>     
@@ -105,7 +107,18 @@
                          <img class="card-img-top"  src="Skarmklipp.jpg" alt="bild2">                                  
                    </div></div>
                  </div></div>
-          <div class='col-sm-6 col-md-8'></div>
+             <div class=' col-md-2'></div>
+
+                 <div class='col-sm-6 col-md-2'>
+                  <div class="row text-center">                         
+                        <i class="glyphicon glyphicon-briefcase"></i><!--märket för en bok-->        
+                    <div class="card">
+                    <div class="card-body">
+                      <h4>Game in mobilapp with Google Api</h4>
+                      <h6>Group work: We worked with agile methods with Scrum and version management in GIT.</h6> 
+                      <img class="card-img-top"  src="ananas.jpg" alt="bild3">                                  
+                </div></div>
+              </div></div>
         </div></div></div>  
           
          <div class="container">
@@ -130,16 +143,23 @@
             </div>
           </div></div></div>           
           <div class="kontakt1">
-           <div class='col-sm-6 col-md-8'>
+           <div class='col-sm-6 col-md-8'>                  
+        </div> 
             <div class="row text-center">            
              </div>                     
           </div></div></div>
 
         <footer class="footer">
            <div class="container-fluid">
-           <div class="row text-center">                  
-          <div class='col-sm-12 col-md-12'><span>Copyright Anna Larsson</span>
-           <a id="Kontakt"></a>     
+           <div class="row text-center">
+              <div class='col-sm-10 col-md-10'>             
+                  <span>Copyright Anna Larsson</span>
+                 <a id="Kontakt"></a></div>            
+           <div class='col-sm-2 col-md-2'>   
+           <a href="https://www.linkedin.com/in/anna-larsdotter-larsson-985303156/">
+            <img class= "linkd" src="linked.jpg" alt="Linkedin" title="Linkedin"/></a>
+           </div> 
+            
         </div></div></div></footer>        
         
   

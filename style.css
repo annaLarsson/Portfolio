@@ -1,10 +1,13 @@
 body{
-    background-color:rgba(252, 249, 237, 0.986);
+    background-color:rgb(247, 246, 248);
     font-size:16px; 
     font-family:Tahoma; 
     margin:0;
 }
-h2, h3{
+.navbar{
+    background: rgb(219, 218, 218);
+}
+ h3{
     margin-top:125px;
 }
 h4{
@@ -12,7 +15,18 @@ h4{
 }
 h1{
     font-size:50px;
-    font-weight:bold;    
+    font-weight:bold; 
+}
+.header{
+    height:400px ;
+    background-image:url(landet3.jpg) ;
+}
+article{ 
+    border:2px solid rgb(196, 195, 195);
+    box-shadow:5px 5px grey;  
+    padding:10px;
+    font-size:17px;
+    margin-top:100px;
 }
 .centered {
     color:rgb(252, 249, 248);
@@ -24,7 +38,7 @@ h1{
     transform: translate(-50%, -50%); 
 }
 .background-work{
-    background-image:url(beige.jpg);
+  background: rgb(226, 226, 226);
 }
 .glyphicon{
     font-size:30px;
@@ -36,7 +50,7 @@ h1{
     margin-top:10px; 
 }
 .card-body{
-    border:3px solid rgb(7, 7, 7);
+    border:3px solid rgb(196, 195, 195);
     box-shadow:10px 10px 10px gray;
     border-radius: 5%; 
     margin-bottom:40px; 
@@ -44,19 +58,19 @@ h1{
     background-color:rgb(255, 255, 255);  
 }
 .section1{
-    background-color:rgb(252, 220, 152); 
-    box-shadow:10px 10px 10px rgb(189, 143, 17); 
-    border:2px solid rgb(100, 56, 2);  
+    background-color:rgb(226, 226, 226); 
+    box-shadow:10px 10px 10px rgb(83, 83, 83); 
+    border:2px solid rgb(196, 195, 195);  
     padding:10px;
     margin:100px 0 50px 0;    
 }
 .footer{
-    background-color:rgb(22, 22, 22);
+    background-color:rgb(219, 218, 218);
     margin-top:25px;  
-    color:rgb(245, 245, 245);
+    color:rgb(46, 45, 45);
     padding-top:20px;
     width:100%; 
-    height:50px;       
+    height:75px;       
 }
 .form-control{
     margin-top: 50px;
@@ -65,4 +79,6 @@ h1{
     margin-bottom:60px;
     border-radius:50px;  
 }
+
+ 
 
